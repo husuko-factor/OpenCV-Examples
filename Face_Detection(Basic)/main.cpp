@@ -6,6 +6,8 @@
 using namespace std;
 using namespace cv;
 
+
+
 int main(){
     CascadeClassifier faceDetection;
     if(!faceDetection.load("/home/nstg/opencv_build/opencv/data/haarcascades/haarcascade_frontalface_default.xml")){
